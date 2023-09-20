@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.squere {
+  margin: 1px;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 117px;
+  height: 117px;
+}
+
+.status {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  width: max-content;
+  font-size: 12px;
+}
+
+.game {
+  display: flex;
+  gap: 50px;
+}
+
+.btn-his {
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 5px;
+}
